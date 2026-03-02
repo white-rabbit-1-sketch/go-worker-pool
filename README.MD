@@ -1,4 +1,4 @@
-# Strongly Typed Dynamic Worker Pool (Educational Example)
+# Strongly Typed Dynamic Worker Pool
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Go Version](https://img.shields.io/badge/Go-1.18%2B-blue.svg)](https://golang.org/doc/devel/release#go1.18)
