@@ -15,7 +15,7 @@ A high-performance, elastic worker pool implementation in Go that adapts to the 
 * **Self-Healing (Scale-Down)**: Extra workers terminate themselves after 10 seconds of inactivity to free up system resources.
 * **Panic Isolation**: Each task is wrapped in a `recover()` block, preventing a single faulty task from crashing the entire worker or the host process.
 * **Context Propagation**: Tasks are "context-aware", allowing for granular cancellation and timeout management.
-* **Graceful Shutdown**: Properly handles OS signals, ensuring all in-flight tasks are processed before exit.
+* **Graceful Shutdown**: Properly handles OS signals, ensuring all in-flight tasks are processed before exit. 
 
 ---
 
